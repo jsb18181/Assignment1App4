@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_radius">5dp</dimen>
+    <dimen name="name_padding">10dp</dimen>
+    <dimen name="name_of_student">15dp</dimen>
+    <dimen name="course_name_padding_bottom">5dp</dimen>
+    <dimen name="name_course">12dp</dimen>
+</resources>

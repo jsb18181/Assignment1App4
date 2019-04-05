@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name2">My Stack</string>
+    <string name="push_button">Push</string>
+    <string name="pop_button">Pop</string>
+    <string name="search_button">Search</string>
+    <string name="input_text">Enter value to push</string>
+    <string name="input_text3">Enter student name</string>
+    <string name="input_text4">Enter student course</string>
+    <string name="top_button">Top</string>
+    <string name="app_name3">My Queue</string>
+    <string name="Enqueue_button">Enqueue</string>
+    <string name="Dequeue_button">Dequeue</string>
+    <string name="HeadOfQueue_button">Front</string>
+    <string name="launch_stack">Stack</string>
+    <string name="launch_queue">Queue</string>
+    <string name="launch_bubble">Bubble Sort</string>
+    <string name="bubble_sort">Bubble Sort List</string>
+    <string name="random_list">Create Random List</string>
+</resources>

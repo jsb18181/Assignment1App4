@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.assignment1app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Data Structures"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Control.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Control.StackActivity"
+            android:label="Stack"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:parentActivityName=".Control.MainActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+
+        <activity
+            android:name=".Control.BubbleActivity"
+            android:label="Bubble Sort"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:parentActivityName=".Control.MainActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+
+        <activity
+            android:name=".Control.QueueActivity"
+            android:label="Queue"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:parentActivityName=".Control.MainActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+
+    </application>
+
+</manifest>
